@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrito de compras</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <!-- formulario para seleccionar un producto -->
+<form id="formulario-producto">
+    <label for="producto">Elige un producto:</label><br>
+    <select id="producto">
+        <option value="leche">Leche</option>
+        <option value="galletitas">Galletitas</option>
+        <option value="cerveza">Cerveza</option>
+        <option value="manteca">Manteca</option>
+        <option value="azucar">Azúcar</option>
+        <option value="arroz">Arroz</option>
+    </select>
+</form> 
+
+<!-- formulario para ingresar la cantidad de unidades -->
+<form id="formulario-unidades">
+    <label for="unidades">Ingresa la cantidad de unidades:</label><br>
+    <input type="number" id="unidades">
+</form> 
+
+<!-- botón para agregar el producto al carrito -->
+<button id="agregar-al-carrito">Agregar al carrito</button>
+
+<!-- área para mostrar el carrito -->
+
+<!-- botón para finalizar la compra -->
+<button id="finalizar-compra">Finalizar compra</button>
+
+
 
     <script src="main.js"></script>
 </body>
